@@ -1,0 +1,16 @@
+.items{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    
+    overflow-x: scroll;
+}
+.items::-webkit-scrollbar{
+    background-color: inherit;
+    height: 4px;
+    
+}
+.items::-webkit-scrollbar-thumb{
+    background: linear-gradient(270deg, #FEE040 0%, rgba(254, 224, 64, 0) 100%);
+    
+}

@@ -1,0 +1,132 @@
+@import url("../fonts/fonts_Bebas/stylesheet.css");
+@import url("../fonts/fonts_Gilroy/stylesheet.css");
+.container {
+  padding-top: 104px;
+  .description {
+    margin-bottom: 104px;
+    h3 {
+      font-family: 'Bebas Neue';
+      text-align: center;
+      background: linear-gradient(
+        180deg,
+        #60b6ff 0%,
+        rgba(0, 78, 134, 0.8) 100%
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 80px;
+      line-height: 64px;
+      margin-bottom: 36px;
+      @media (max-width: 1250px) {
+        font-size: 55px;
+      }
+      @media (max-width: 800px) {
+        font-size: 35px;
+      }
+    }
+    p {
+      font-weight: 600;
+      font-family: Gilroy;
+      text-align: center;
+      font-size: 20px;
+      line-height: 28px;
+      width: 40%;
+      margin: 0 auto;
+      @media (max-width: 800px) {
+        font-size: 14px;
+      }
+    }
+  }
+  .step_one {
+    display: flex;
+    @media (max-width: 1250px) {
+      display: block;
+    }
+    .img {
+      background-image: url(../images/step_one.png);
+      background-position: center;
+      flex-basis: 50%;
+      min-height: 400px;
+    }
+    .info_step_one {
+      background: #f5f5f5;
+      padding-top: 80px;
+      flex-basis: 50%;
+      .info_box {
+        width: 70%;
+        margin-left: 10%;
+        .title {
+          display: flex;
+          margin-bottom: 25px;
+          @media (max-width: 800px) {
+            display: block;
+          }
+          .logo {
+            width: 107px;
+            height: 27px;
+            background: #fee040;
+            text-align: center;
+            padding-top: 2px;
+            margin-right: 20px;
+            font-size: 16px;
+            line-height: 23px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+          }
+          span {
+            font-size: 24px;
+            line-height: 34px;
+            font-weight: 500;
+            @media (max-width: 800px) {
+              margin-top: 20px;
+              font-size: 18px;
+            }
+          }
+        }
+        .text {
+          width: 75%;
+          padding-right: 15px;
+          font-size: 18px;
+          line-height: 26px;
+          margin-bottom: 30px;
+          @media (max-width: 800px) {
+            margin-top: 20px;
+            font-size: 14px;
+            width: 100%;
+          }
+        }
+        .blog {
+          display: flex;
+
+          img {
+            height: 120px;
+            @media (max-width: 800px) {
+              display: none;
+            }
+          }
+          span {
+            width:75%;
+            display: inline-block;
+            margin-top: 15px;
+            font-size: 16px;
+            line-height: 24px;
+            color: #505050;
+            opacity: 0.7;
+            font-style: italic;
+            @media (max-width: 800px) {
+              font-size: 14px;
+              width: 100%;
+            }
+          }
+          p {
+            margin-top: 20px;
+            font-size: 16px;
+            line-height: 26px;
+            font-weight: 500;
+            opacity: 0.7;
+          }
+        }
+      }
+    }
+  }
+}
